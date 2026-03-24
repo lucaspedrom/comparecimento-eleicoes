@@ -40,6 +40,7 @@ def main():
     buckets = [
         f"{PREFIX}-raw",    # Chegada de dados (Landzone)
         f"{PREFIX}-bronze", # Dados convertidos (Parquet)
+        f"{PREFIX}-silver", # Dados limpos e tipados (Parquet)
         f"{PREFIX}-gold"    # Dados agregados (Business)
     ]
 
